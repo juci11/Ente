@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7e0; /* Fundo verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32; /* Verde escuro */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2e7d32; /* Verde escuro */
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    max-width: 600px;
+}
+
+.subtitle {
+    color: #66bb6a; /* Verde médio */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #2e7d32; /* Verde escuro */
+    font-size: 48px;
+    margin: 0;
+}
+
+.description {
+    color: #66bb6a; /* Verde médio */
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #388e3c; /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #66bb6a; /* Verde claro */
+    box-shadow: 0 0 10px #66bb6a; /* Efeito de brilho verde */
+}
+
+button:active {
+    background-color: #2e7d32; /* Verde mais escuro */
+    box-shadow: 0 0 20px #66bb6a; /* Efeito de brilho verde */
+}
+
+.image-section {
+    position: relative;
+}
+
+.image-section img {
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.small-circle {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
+
+.small-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2e7d32; /* Verde escuro */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
